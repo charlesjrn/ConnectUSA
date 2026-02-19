@@ -1,0 +1,5 @@
+The screenshot shows the Member Dashboard because the user is logged in.
+The Home.tsx redirects logged-in users to /dashboard.
+New visitors (not logged in) will see the MVP landing page.
+All tests pass (6/6).
+TypeScript: No errors.

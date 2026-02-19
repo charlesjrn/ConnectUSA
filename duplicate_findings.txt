@@ -1,0 +1,20 @@
+DUPLICATE SECTIONS FOUND:
+
+1. MemberDashboard.tsx:
+   - "Community Feed" appears TWICE: once as Quick Action card (line 48, "Submit Testimony" etc grid) AND as separate section (line 239-270) with "Browse Community Feed" button
+   - "Live Events" appears TWICE: once as Quick Action card (line 85-93) AND as separate "Upcoming Events" section (line 273-316) with "Become a Founder" button
+   
+2. Membership.tsx:
+   - "Everything in Free, plus:" still in founderFeatures (line 119) - user asked to remove this earlier
+   - "Ready to Join Your Spiritual Family?" CTA section (line 279-313) is very similar to Home.tsx CTA (line 232-266) - same heading text
+   - The createCheckout mutation (lines 35-48) is still there but unused since we switched to direct links
+
+3. Home.tsx:
+   - "Ready to Join Your Spiritual Family?" CTA (line 236) duplicates the same section in Membership.tsx (line 283)
+   - Hero CTA buttons (Join Free + Become a Founder) duplicate the Final CTA buttons
+
+ACTIONS:
+- Remove duplicate Community Feed section from MemberDashboard
+- Remove duplicate Upcoming Events section from MemberDashboard
+- Remove "Everything in Free, plus:" from Membership founderFeatures
+- Remove unused createCheckout mutation from Membership

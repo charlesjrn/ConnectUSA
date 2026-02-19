@@ -1,0 +1,9 @@
+Cash App URL findings:
+- The URL https://cash.app/$AlRosebruch/20 works correctly
+- It shows Albert Rosebruch's profile with a QR code to scan
+- The page title says "Pay $AlRosebruch on Cash App"
+- However, the /20 amount doesn't show on the web page - it just shows the profile
+- The $20 amount only works when opened in the Cash App mobile app
+- On web, users see a QR code to scan with their phone
+
+The URL format is correct: https://cash.app/$AlRosebruch/20
